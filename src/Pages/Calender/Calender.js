@@ -6,8 +6,10 @@ const Calender = () => {
         console.log(date.toString());
     };
     return (
-        <div className='flex justify-center items-center my-10'>
-            <DatePicker onChange={onChange} />
+        <div className='flex  justify-center items-center my-10'>
+            <div className='w-48'>
+                <DatePicker onChange={onChange} />
+            </div>
         </div>
     );
 };
