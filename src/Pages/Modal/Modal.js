@@ -9,7 +9,7 @@ const Modal = ({ isOpen, closeModal, refetch, id }) => {
 
         const title = e.target.value;
 
-        fetch(`http://localhost:5000/todo/${id}`, {
+        fetch(`https://arctic-doright-52551.herokuapp.com/todo/${id}`, {
             method: 'PUT',
             headers: {
                 "content-type": "application/json"
